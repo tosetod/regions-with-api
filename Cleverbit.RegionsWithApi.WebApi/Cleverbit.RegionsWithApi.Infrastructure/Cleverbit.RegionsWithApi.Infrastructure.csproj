@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+		<PackageReference Include="Lamar" Version="8.0.1" />
+		<PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="8.0.1" />
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.19.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Cleverbit.RegionsWithApi.Common\Cleverbit.RegionsWithApi.Common.csproj" />
+	  <ProjectReference Include="..\Cleverbit.RegionsWithApi.Core\Cleverbit.RegionsWithApi.Core.csproj" />
+	</ItemGroup>
+
+</Project>
