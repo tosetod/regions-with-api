@@ -46,7 +46,7 @@ await using var provider = builder.Services.BuildServiceProvider();
 using (var scope = provider.CreateScope())
 {
     var services = scope.ServiceProvider;
-    //SeedData.Initialize(services);
+    SeedData.Initialize(services);
 }
 
 var app = builder.Build();
