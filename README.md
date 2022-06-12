@@ -10,4 +10,4 @@
 #### 3.  npm start from terminal in ClientApp folder
 #### 4.  Open localhost:4200 in browser and open console to see results
 
-## P.S. Didn't have time to show results in UI and interact with endpoint, had to comment out UseSpa method. We can use swagger endpoint for API to test
+## P.S. Didn't have time to show results in UI and interact with endpoint, had to comment out UseSpa method. We can use swagger endpoint /swagger for API to test
