@@ -6,7 +6,7 @@
 ## Steps to run project
 
 #### 1.  npm install from terminal in ClientApp folder
-#### 2.  Change connection string in appsettings file
+#### 2.  Change connection string in appsettings file to use local db or your sql instance
 #### 3.  Run project from Visual Studio 2022
 #### 4.  npm start from terminal in ClientApp folder
 #### 5.  Open localhost:4200 in browser and open console to see results
